@@ -23,6 +23,20 @@ function accessLevel($page)
         return "none";
     }
 
+
+    // Modifications for QG: Allow all admins to access all subscriber lists
+    if ($page == 'send') {
+        return 'all';
+    }
+    if ($page == 'list') {
+        return 'all';
+    }
+    if ($page == 'messages') {
+        return 'all';
+    }
+    // End of modifications for QG
+
+
     //# for non-supers we only allow owner views
     //# this is likely to need tweaking
     return 'owner';
