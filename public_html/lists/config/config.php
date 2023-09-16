@@ -127,3 +127,5 @@ $bounce_unsubscribe_threshold = 2;
 // check the extended config for more info
 // in most cases, it is fine to leave this as it is
 define('HASH_ALGO', 'sha256');
+
+define('CHECK_SESSIONIP', 0);
