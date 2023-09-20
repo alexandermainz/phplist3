@@ -128,4 +128,8 @@ $bounce_unsubscribe_threshold = 2;
 // in most cases, it is fine to leave this as it is
 define('HASH_ALGO', 'sha256');
 
+// Do not check session IP address (due to Safari private relay changing adresses randomly)
 define('CHECK_SESSIONIP', 0);
+
+// prevent unsubscription from being accidentally performed by requiring a confirmation/cause to be entered
+define('UNSUBSCRIBE_JUMPOFF', 0);
