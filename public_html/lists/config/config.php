@@ -133,3 +133,11 @@ define('CHECK_SESSIONIP', 0);
 
 // prevent unsubscription from being accidentally performed by requiring a confirmation/cause to be entered
 define('UNSUBSCRIBE_JUMPOFF', 0);
+
+// config for phpListUpdater plugin
+$updaterConfig = [
+  'work' => '/www/htdocs/w018f2b5/temp',
+  'max_execution_time' => 240,
+  'memory_limit' => '1024M',
+  'keep_backups' => 1
+];
