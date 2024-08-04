@@ -78,7 +78,7 @@ define('TEST', 0);
 // Your should make this an address that no PERSON reads
 // but a mailbox that phpList can empty every so often, to process the bounces
 
-$message_envelope = 'mailservice@quaelgeist-berlin.de';
+$message_envelope = 'mailservice@quaelgeist.sm';
 
 // Handling bounces. Check README.bounces for more info
 // This can be 'pop' or 'mbox'
